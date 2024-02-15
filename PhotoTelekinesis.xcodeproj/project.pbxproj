@@ -14,6 +14,15 @@
 		DDA46DAD2B7EB95000FC16F8 /* PhotoTelekinesisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA46DAC2B7EB95000FC16F8 /* PhotoTelekinesisTests.swift */; };
 		DDA46DB72B7EB95000FC16F8 /* PhotoTelekinesisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA46DB62B7EB95000FC16F8 /* PhotoTelekinesisUITests.swift */; };
 		DDA46DB92B7EB95000FC16F8 /* PhotoTelekinesisUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA46DB82B7EB95000FC16F8 /* PhotoTelekinesisUITestsLaunchTests.swift */; };
+		DDA46DC62B7EB98A00FC16F8 /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA46DC52B7EB98A00FC16F8 /* AsyncImageView.swift */; };
+		DDA46DC82B7EB9A900FC16F8 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA46DC72B7EB9A900FC16F8 /* ImageLoader.swift */; };
+		DDA46DCA2B7EBC0000FC16F8 /* AsyncImageViewDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA46DC92B7EBC0000FC16F8 /* AsyncImageViewDemo.swift */; };
+		DDA46DCC2B7EBC5700FC16F8 /* CombineDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA46DCB2B7EBC5700FC16F8 /* CombineDemo.swift */; };
+		DDA46DCE2B7EBD0100FC16F8 /* MVVMExplanationDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA46DCD2B7EBD0100FC16F8 /* MVVMExplanationDemo.swift */; };
+		DDA46DD02B7EBE3D00FC16F8 /* CombineDicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA46DCF2B7EBE3D00FC16F8 /* CombineDicModel.swift */; };
+		DDA46DD22B7EBE5100FC16F8 /* CombineDicViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA46DD12B7EBE5100FC16F8 /* CombineDicViewModel.swift */; };
+		DDA46DD42B7EBE6300FC16F8 /* CombineDicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA46DD32B7EBE6300FC16F8 /* CombineDicView.swift */; };
+		DDA46DD92B7EC0D600FC16F8 /* CombineDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA46DD82B7EC0D600FC16F8 /* CombineDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +53,15 @@
 		DDA46DB22B7EB95000FC16F8 /* PhotoTelekinesisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoTelekinesisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDA46DB62B7EB95000FC16F8 /* PhotoTelekinesisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTelekinesisUITests.swift; sourceTree = "<group>"; };
 		DDA46DB82B7EB95000FC16F8 /* PhotoTelekinesisUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTelekinesisUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DDA46DC52B7EB98A00FC16F8 /* AsyncImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
+		DDA46DC72B7EB9A900FC16F8 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		DDA46DC92B7EBC0000FC16F8 /* AsyncImageViewDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageViewDemo.swift; sourceTree = "<group>"; };
+		DDA46DCB2B7EBC5700FC16F8 /* CombineDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineDemo.swift; sourceTree = "<group>"; };
+		DDA46DCD2B7EBD0100FC16F8 /* MVVMExplanationDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMExplanationDemo.swift; sourceTree = "<group>"; };
+		DDA46DCF2B7EBE3D00FC16F8 /* CombineDicModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineDicModel.swift; sourceTree = "<group>"; };
+		DDA46DD12B7EBE5100FC16F8 /* CombineDicViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineDicViewModel.swift; sourceTree = "<group>"; };
+		DDA46DD32B7EBE6300FC16F8 /* CombineDicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineDicView.swift; sourceTree = "<group>"; };
+		DDA46DD82B7EC0D600FC16F8 /* CombineDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +114,9 @@
 			children = (
 				DDA46D9B2B7EB94F00FC16F8 /* PhotoTelekinesisApp.swift */,
 				DDA46D9D2B7EB94F00FC16F8 /* ContentView.swift */,
+				DDA46DD72B7EBE9B00FC16F8 /* Utilities */,
+				DDA46DD62B7EBE8C00FC16F8 /* Demos */,
+				DDA46DD52B7EBE7600FC16F8 /* CombineDictionaryMiniApp */,
 				DDA46D9F2B7EB95000FC16F8 /* Assets.xcassets */,
 				DDA46DA12B7EB95000FC16F8 /* Preview Content */,
 			);
@@ -125,6 +146,36 @@
 				DDA46DB82B7EB95000FC16F8 /* PhotoTelekinesisUITestsLaunchTests.swift */,
 			);
 			path = PhotoTelekinesisUITests;
+			sourceTree = "<group>";
+		};
+		DDA46DD52B7EBE7600FC16F8 /* CombineDictionaryMiniApp */ = {
+			isa = PBXGroup;
+			children = (
+				DDA46DCF2B7EBE3D00FC16F8 /* CombineDicModel.swift */,
+				DDA46DD12B7EBE5100FC16F8 /* CombineDicViewModel.swift */,
+				DDA46DD32B7EBE6300FC16F8 /* CombineDicView.swift */,
+				DDA46DD82B7EC0D600FC16F8 /* CombineDetailView.swift */,
+			);
+			path = CombineDictionaryMiniApp;
+			sourceTree = "<group>";
+		};
+		DDA46DD62B7EBE8C00FC16F8 /* Demos */ = {
+			isa = PBXGroup;
+			children = (
+				DDA46DCD2B7EBD0100FC16F8 /* MVVMExplanationDemo.swift */,
+				DDA46DCB2B7EBC5700FC16F8 /* CombineDemo.swift */,
+				DDA46DC92B7EBC0000FC16F8 /* AsyncImageViewDemo.swift */,
+			);
+			path = Demos;
+			sourceTree = "<group>";
+		};
+		DDA46DD72B7EBE9B00FC16F8 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				DDA46DC52B7EB98A00FC16F8 /* AsyncImageView.swift */,
+				DDA46DC72B7EB9A900FC16F8 /* ImageLoader.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +308,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDA46DCE2B7EBD0100FC16F8 /* MVVMExplanationDemo.swift in Sources */,
+				DDA46DCA2B7EBC0000FC16F8 /* AsyncImageViewDemo.swift in Sources */,
+				DDA46DCC2B7EBC5700FC16F8 /* CombineDemo.swift in Sources */,
 				DDA46D9E2B7EB94F00FC16F8 /* ContentView.swift in Sources */,
 				DDA46D9C2B7EB94F00FC16F8 /* PhotoTelekinesisApp.swift in Sources */,
+				DDA46DD92B7EC0D600FC16F8 /* CombineDetailView.swift in Sources */,
+				DDA46DD22B7EBE5100FC16F8 /* CombineDicViewModel.swift in Sources */,
+				DDA46DC82B7EB9A900FC16F8 /* ImageLoader.swift in Sources */,
+				DDA46DD42B7EBE6300FC16F8 /* CombineDicView.swift in Sources */,
+				DDA46DD02B7EBE3D00FC16F8 /* CombineDicModel.swift in Sources */,
+				DDA46DC62B7EB98A00FC16F8 /* AsyncImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
