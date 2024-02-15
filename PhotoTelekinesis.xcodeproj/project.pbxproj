@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDA46D9C2B7EB94F00FC16F8 /* PhotoTelekinesisApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA46D9B2B7EB94F00FC16F8 /* PhotoTelekinesisApp.swift */; };
+		DDA46D9E2B7EB94F00FC16F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA46D9D2B7EB94F00FC16F8 /* ContentView.swift */; };
+		DDA46DA02B7EB95000FC16F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDA46D9F2B7EB95000FC16F8 /* Assets.xcassets */; };
+		DDA46DA32B7EB95000FC16F8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDA46DA22B7EB95000FC16F8 /* Preview Assets.xcassets */; };
+		DDA46DAD2B7EB95000FC16F8 /* PhotoTelekinesisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA46DAC2B7EB95000FC16F8 /* PhotoTelekinesisTests.swift */; };
+		DDA46DB72B7EB95000FC16F8 /* PhotoTelekinesisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA46DB62B7EB95000FC16F8 /* PhotoTelekinesisUITests.swift */; };
+		DDA46DB92B7EB95000FC16F8 /* PhotoTelekinesisUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA46DB82B7EB95000FC16F8 /* PhotoTelekinesisUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDA46DA92B7EB95000FC16F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDA46D902B7EB94F00FC16F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDA46D972B7EB94F00FC16F8;
+			remoteInfo = PhotoTelekinesis;
+		};
+		DDA46DB32B7EB95000FC16F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDA46D902B7EB94F00FC16F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDA46D972B7EB94F00FC16F8;
+			remoteInfo = PhotoTelekinesis;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDA46D982B7EB94F00FC16F8 /* PhotoTelekinesis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoTelekinesis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDA46D9B2B7EB94F00FC16F8 /* PhotoTelekinesisApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTelekinesisApp.swift; sourceTree = "<group>"; };
+		DDA46D9D2B7EB94F00FC16F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DDA46D9F2B7EB95000FC16F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDA46DA22B7EB95000FC16F8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DDA46DA82B7EB95000FC16F8 /* PhotoTelekinesisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoTelekinesisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDA46DAC2B7EB95000FC16F8 /* PhotoTelekinesisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTelekinesisTests.swift; sourceTree = "<group>"; };
+		DDA46DB22B7EB95000FC16F8 /* PhotoTelekinesisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoTelekinesisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDA46DB62B7EB95000FC16F8 /* PhotoTelekinesisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTelekinesisUITests.swift; sourceTree = "<group>"; };
+		DDA46DB82B7EB95000FC16F8 /* PhotoTelekinesisUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTelekinesisUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDA46D952B7EB94F00FC16F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDA46DA52B7EB95000FC16F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDA46DAF2B7EB95000FC16F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDA46D8F2B7EB94F00FC16F8 = {
+			isa = PBXGroup;
+			children = (
+				DDA46D9A2B7EB94F00FC16F8 /* PhotoTelekinesis */,
+				DDA46DAB2B7EB95000FC16F8 /* PhotoTelekinesisTests */,
+				DDA46DB52B7EB95000FC16F8 /* PhotoTelekinesisUITests */,
+				DDA46D992B7EB94F00FC16F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDA46D992B7EB94F00FC16F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDA46D982B7EB94F00FC16F8 /* PhotoTelekinesis.app */,
+				DDA46DA82B7EB95000FC16F8 /* PhotoTelekinesisTests.xctest */,
+				DDA46DB22B7EB95000FC16F8 /* PhotoTelekinesisUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDA46D9A2B7EB94F00FC16F8 /* PhotoTelekinesis */ = {
+			isa = PBXGroup;
+			children = (
+				DDA46D9B2B7EB94F00FC16F8 /* PhotoTelekinesisApp.swift */,
+				DDA46D9D2B7EB94F00FC16F8 /* ContentView.swift */,
+				DDA46D9F2B7EB95000FC16F8 /* Assets.xcassets */,
+				DDA46DA12B7EB95000FC16F8 /* Preview Content */,
+			);
+			path = PhotoTelekinesis;
+			sourceTree = "<group>";
+		};
+		DDA46DA12B7EB95000FC16F8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DDA46DA22B7EB95000FC16F8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DDA46DAB2B7EB95000FC16F8 /* PhotoTelekinesisTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDA46DAC2B7EB95000FC16F8 /* PhotoTelekinesisTests.swift */,
+			);
+			path = PhotoTelekinesisTests;
+			sourceTree = "<group>";
+		};
+		DDA46DB52B7EB95000FC16F8 /* PhotoTelekinesisUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DDA46DB62B7EB95000FC16F8 /* PhotoTelekinesisUITests.swift */,
+				DDA46DB82B7EB95000FC16F8 /* PhotoTelekinesisUITestsLaunchTests.swift */,
+			);
+			path = PhotoTelekinesisUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDA46D972B7EB94F00FC16F8 /* PhotoTelekinesis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDA46DBC2B7EB95000FC16F8 /* Build configuration list for PBXNativeTarget "PhotoTelekinesis" */;
+			buildPhases = (
+				DDA46D942B7EB94F00FC16F8 /* Sources */,
+				DDA46D952B7EB94F00FC16F8 /* Frameworks */,
+				DDA46D962B7EB94F00FC16F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoTelekinesis;
+			productName = PhotoTelekinesis;
+			productReference = DDA46D982B7EB94F00FC16F8 /* PhotoTelekinesis.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDA46DA72B7EB95000FC16F8 /* PhotoTelekinesisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDA46DBF2B7EB95000FC16F8 /* Build configuration list for PBXNativeTarget "PhotoTelekinesisTests" */;
+			buildPhases = (
+				DDA46DA42B7EB95000FC16F8 /* Sources */,
+				DDA46DA52B7EB95000FC16F8 /* Frameworks */,
+				DDA46DA62B7EB95000FC16F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDA46DAA2B7EB95000FC16F8 /* PBXTargetDependency */,
+			);
+			name = PhotoTelekinesisTests;
+			productName = PhotoTelekinesisTests;
+			productReference = DDA46DA82B7EB95000FC16F8 /* PhotoTelekinesisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DDA46DB12B7EB95000FC16F8 /* PhotoTelekinesisUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDA46DC22B7EB95000FC16F8 /* Build configuration list for PBXNativeTarget "PhotoTelekinesisUITests" */;
+			buildPhases = (
+				DDA46DAE2B7EB95000FC16F8 /* Sources */,
+				DDA46DAF2B7EB95000FC16F8 /* Frameworks */,
+				DDA46DB02B7EB95000FC16F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDA46DB42B7EB95000FC16F8 /* PBXTargetDependency */,
+			);
+			name = PhotoTelekinesisUITests;
+			productName = PhotoTelekinesisUITests;
+			productReference = DDA46DB22B7EB95000FC16F8 /* PhotoTelekinesisUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDA46D902B7EB94F00FC16F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					DDA46D972B7EB94F00FC16F8 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					DDA46DA72B7EB95000FC16F8 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = DDA46D972B7EB94F00FC16F8;
+					};
+					DDA46DB12B7EB95000FC16F8 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = DDA46D972B7EB94F00FC16F8;
+					};
+				};
+			};
+			buildConfigurationList = DDA46D932B7EB94F00FC16F8 /* Build configuration list for PBXProject "PhotoTelekinesis" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDA46D8F2B7EB94F00FC16F8;
+			productRefGroup = DDA46D992B7EB94F00FC16F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDA46D972B7EB94F00FC16F8 /* PhotoTelekinesis */,
+				DDA46DA72B7EB95000FC16F8 /* PhotoTelekinesisTests */,
+				DDA46DB12B7EB95000FC16F8 /* PhotoTelekinesisUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDA46D962B7EB94F00FC16F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA46DA32B7EB95000FC16F8 /* Preview Assets.xcassets in Resources */,
+				DDA46DA02B7EB95000FC16F8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDA46DA62B7EB95000FC16F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDA46DB02B7EB95000FC16F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDA46D942B7EB94F00FC16F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA46D9E2B7EB94F00FC16F8 /* ContentView.swift in Sources */,
+				DDA46D9C2B7EB94F00FC16F8 /* PhotoTelekinesisApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDA46DA42B7EB95000FC16F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA46DAD2B7EB95000FC16F8 /* PhotoTelekinesisTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDA46DAE2B7EB95000FC16F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA46DB92B7EB95000FC16F8 /* PhotoTelekinesisUITestsLaunchTests.swift in Sources */,
+				DDA46DB72B7EB95000FC16F8 /* PhotoTelekinesisUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDA46DAA2B7EB95000FC16F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDA46D972B7EB94F00FC16F8 /* PhotoTelekinesis */;
+			targetProxy = DDA46DA92B7EB95000FC16F8 /* PBXContainerItemProxy */;
+		};
+		DDA46DB42B7EB95000FC16F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDA46D972B7EB94F00FC16F8 /* PhotoTelekinesis */;
+			targetProxy = DDA46DB32B7EB95000FC16F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DDA46DBA2B7EB95000FC16F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DDA46DBB2B7EB95000FC16F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDA46DBD2B7EB95000FC16F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PhotoTelekinesis/Preview Content\"";
+				DEVELOPMENT_TEAM = 7J77M7XTN8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-upah.PhotoTelekinesis";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDA46DBE2B7EB95000FC16F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PhotoTelekinesis/Preview Content\"";
+				DEVELOPMENT_TEAM = 7J77M7XTN8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-upah.PhotoTelekinesis";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DDA46DC02B7EB95000FC16F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7J77M7XTN8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-upah.PhotoTelekinesisTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoTelekinesis.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PhotoTelekinesis";
+			};
+			name = Debug;
+		};
+		DDA46DC12B7EB95000FC16F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7J77M7XTN8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-upah.PhotoTelekinesisTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoTelekinesis.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PhotoTelekinesis";
+			};
+			name = Release;
+		};
+		DDA46DC32B7EB95000FC16F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7J77M7XTN8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-upah.PhotoTelekinesisUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PhotoTelekinesis;
+			};
+			name = Debug;
+		};
+		DDA46DC42B7EB95000FC16F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7J77M7XTN8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-upah.PhotoTelekinesisUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PhotoTelekinesis;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDA46D932B7EB94F00FC16F8 /* Build configuration list for PBXProject "PhotoTelekinesis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDA46DBA2B7EB95000FC16F8 /* Debug */,
+				DDA46DBB2B7EB95000FC16F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDA46DBC2B7EB95000FC16F8 /* Build configuration list for PBXNativeTarget "PhotoTelekinesis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDA46DBD2B7EB95000FC16F8 /* Debug */,
+				DDA46DBE2B7EB95000FC16F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDA46DBF2B7EB95000FC16F8 /* Build configuration list for PBXNativeTarget "PhotoTelekinesisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDA46DC02B7EB95000FC16F8 /* Debug */,
+				DDA46DC12B7EB95000FC16F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDA46DC22B7EB95000FC16F8 /* Build configuration list for PBXNativeTarget "PhotoTelekinesisUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDA46DC32B7EB95000FC16F8 /* Debug */,
+				DDA46DC42B7EB95000FC16F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDA46D902B7EB94F00FC16F8 /* Project object */;
+}
